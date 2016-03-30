@@ -1,0 +1,12 @@
+doctype html
+html
+	head
+		title #{title}
+		link(rel='stylesheet',href='./stylesheets/upload.css')
+	body
+		input(type='file',id='upload',accept='image/png')
+		div(class='upload-panel' id='upload-main-panel')
+			div(class='add-button' id='add-image')
+				span +
+		input(type='button',value='upload',id='uploadBtn')
+		script(src='./javascripts/upload.js')

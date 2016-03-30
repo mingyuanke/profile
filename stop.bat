@@ -1,0 +1,3 @@
+@echo off
+echo Stopping....
+taskkill /F /IM node.exe >nul

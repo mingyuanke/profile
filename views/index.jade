@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	div(class='nav')
+		div(class='nav-contain')
+			ul(class='nav-items')
+				li(class='nav-item')
+					a(class='nav-link',href='/') 首页
+				li(class='nav-item')
+					a(class='nav-link',href='/profile') 个人
+			ul(class='nav-right')
+				li(class='nav-item')
+					a(class='nav-link',href='/profile') #{userName}
+				li(class='nav-item')
+					a(class='nav-link',href='javascrit:void(0)') 退出
